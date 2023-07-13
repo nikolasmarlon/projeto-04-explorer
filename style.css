@@ -6,6 +6,9 @@
     
 }
 
+/* Converter o tamanho em porcentagem, que equiale a 10px, assim fica mais facil converter os valores em px para rem, basta mudar a vírgula uma casa para esquerda e mudar a unidade para rem ... 
+40px se tornam 4.0rem ou 4 rem --- 3px se torna 0.3rem
+*/
 :root{
     font-size: 62.5%;
 }
@@ -17,23 +20,50 @@ body{
     font-size: 1.6rem;
 }
 
-h2{
+main h2:first-child {
     font-weight: 400;
     font-size: 1.6rem;
     text-transform: uppercase;
     color: #7158EF;
     line-height: 3.2rem;
-    letter-spacing: 0.188rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1.7rem;
 }
 
-h1{
-    font-family: 'Epilogue', sans-serif;
+main h1{    
     font-weight: 800;
     color: #090039;
     font-size: 4.0rem;
     line-height: 4.8rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Seleciona o p que vem depois do h1*/
+main h1 + p{
+    color: rgba(10, 0, 57, 0.64);
+    line-height: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+main a {
+    text-decoration: none;
+    color: #090039;
+    transition: 0.4s;
+}
+main a:hover {
+    font-weight: bold;
 }
 
 ul{
+    margin-top: 7.2rem;
     list-style: none;
+    
+}
+
+ul li span {
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8rem;
+    letter-spacing: -0.2rem;
+    color: #090039;
 }
