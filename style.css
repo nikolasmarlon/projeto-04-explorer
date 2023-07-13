@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ece9fd;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    padding: 60px 23px 66px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #7158EF;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+
+h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+    color: #090039;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+ul{
+    list-style: none;
+}
